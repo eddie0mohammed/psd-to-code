@@ -143,7 +143,7 @@ html{
 
 
 /* ///////////////////
-TOP SECTION */
+TOP SECTION START */
 
 .top__section{
     width: 100%;
@@ -153,6 +153,8 @@ TOP SECTION */
     background-position: center;
 
     position: relative;
+
+    /* background: black; */
 
 }
 
@@ -211,4 +213,153 @@ TOP SECTION */
     text-transform: uppercase;
     font-size: 0.7rem;
     
+}
+
+/* 
+TOP SECTION END */
+/* /////////////////// */
+
+
+/* 
+SECTION MAIN START
+///////////////// */
+
+.section__main{
+    background: pink;
+    height: 70vh;
+
+    padding: 2rem;
+
+}
+
+.main__container{
+    /* background: green; */
+    width: 90%;
+    display: flex;
+
+    padding-bottom: 3rem;
+
+    
+}
+
+.main__container--left{
+    width: 35%;
+    /* background: red; */
+    margin: 0 1rem;
+}
+
+.main__container--right{
+    width: 65%;
+    background: yellow;
+    margin: 0 3rem;
+    
+}
+
+
+/* LEFT */
+
+.intro  {
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0.4rem 1rem rgba(0,0,0,0.5);
+}
+
+.intro__first{
+    display: flex;
+    align-items:center;
+    /* padding: 0 0 0.5rem 0; */
+    margin-bottom: 1rem;
+}
+
+
+.intro__first .circle{
+    background: #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.title{
+    font-weight: 400;
+    color: grey;
+    margin-right: auto;
+    
+}
+
+.intro__second{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    margin-bottom: 0.6rem;
+}
+
+.job{
+    font-size: 0.8rem;
+}
+
+.intro__info .address,
+.intro__info .origin {
+    color: lightgrey;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro__link{
+    text-decoration: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: lightblue;
+    font-weight: 500;
+    
+}
+
+.photo__container{
+    /* background: green; */
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.1rem;
+}
+
+.col{
+    width: 33%;
+    height: 60px;
+    background: blue;
+}
+
+
+/* RIGHT */
+
+.main__container--right nav{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    box-shadow: 0 0.4rem 1rem rgba(0,0,0,0.5);
+
+}
+
+.nav__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 0;
+    
+}
+
+.nav__block i{
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.desc{
+    padding-top: 0.4rem;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 0.8rem;
+
 }
