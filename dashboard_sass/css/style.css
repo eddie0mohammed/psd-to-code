@@ -56,3 +56,42 @@ html {
         color: #F4F4F4; }
     .header__search i:last-child {
       margin-left: -1.5rem; }
+
+.top-section {
+  background-color: pink;
+  height: 30rem;
+  position: relative;
+  background-image: url("https://source.unsplash.com/random/600x600");
+  background-size: cover;
+  background-position: center; }
+
+.top-section-container {
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+  display: flex; }
+  .top-section-container__img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%; }
+  .top-section-container__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem; }
+    .top-section-container__details-para {
+      font-size: 2.2rem;
+      color: #fff;
+      margin-bottom: 0.5rem; }
+    .top-section-container__details-links {
+      display: flex;
+      list-style: none;
+      justify-content: space-around; }
+      .top-section-container__details-links a {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        padding: 0.7rem 1rem;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 3px; }
