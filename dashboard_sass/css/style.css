@@ -18,8 +18,11 @@ html {
     width: 10%;
     color: #fff;
     font-weight: 500; }
+    @media (max-width: 700px) {
+      .header__logo {
+        margin-right: 2rem; } }
   .header__nav {
-    width: 32%;
+    width: 25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +45,7 @@ html {
       .header__nav--right i:last-child {
         font-size: 0.5rem; }
   .header__search {
-    width: 35%; }
+    min-width: 30rem; }
     .header__search i {
       font-size: 1.2rem;
       color: #fff; }
@@ -56,6 +59,9 @@ html {
         color: #F4F4F4; }
     .header__search i:last-child {
       margin-left: -1.5rem; }
+    @media (max-width: 700px) {
+      .header__search {
+        display: none; } }
 
 .top-section {
   height: 30rem;
@@ -99,8 +105,17 @@ html {
   display: flex;
   width: 90%;
   margin: 2rem auto; }
+  @media (max-width: 575px) {
+    .main-section {
+      flex-direction: column; } }
   .main-section .left {
     width: 25rem; }
+    @media (max-width: 575px) {
+      .main-section .left {
+        width: 100%; } }
+    @media (min-width: 750px) {
+      .main-section .left {
+        width: 30%; } }
     .main-section .left__intro {
       background-color: #fff;
       padding: 1rem;
@@ -164,6 +179,13 @@ html {
     width: 40rem;
     margin-left: 3rem;
     z-index: 10; }
+    @media (max-width: 575px) {
+      .main-section .right {
+        width: 100%;
+        margin: 0; } }
+    @media (min-width: 750px) {
+      .main-section .right {
+        width: 50%; } }
     .main-section .right .navbar {
       background: #fff;
       display: flex;

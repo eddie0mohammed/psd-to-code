@@ -7,10 +7,22 @@
     margin: 2rem auto;
     // background: pink;
 
+    @media (max-width: 575px){
+        flex-direction: column;
+    }
+
     //left container
     .left{
         width: 25rem;
     //    background: red;
+
+        @media (max-width: 575px){
+            width: 100%;
+        }
+
+        @media (min-width: 750px){
+            width: 30%;
+        }
 
 
        //INTRO START
@@ -138,6 +150,15 @@
         // background: blue;
         margin-left: 3rem;
         z-index: 10;
+
+        @media (max-width: 575px){
+            width: 100%;
+            margin: 0;
+        }
+
+        @media (min-width: 750px){
+            width: 50%;
+        }
 
 
         .navbar{
