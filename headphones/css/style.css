@@ -1,0 +1,52 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  display: flex; }
+
+.header {
+  background: pink;
+  padding: 1rem 2rem;
+  align-items: center; }
+  .header__logo {
+    margin-right: 2rem; }
+  .header__image {
+    width: 7rem;
+    height: 5rem; }
+  .header__nav {
+    margin-right: auto; }
+  .header__link {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0 0.5rem;
+    text-transform: uppercase; }
+  .header__buttons {
+    display: flex;
+    align-items: center; }
+  .header__button {
+    display: flex;
+    background: yellowgreen;
+    padding: 1rem 2rem;
+    margin: 0 0.5rem;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+    .header__button--showbag .icon {
+      align-self: center;
+      margin-left: 1rem;
+      margin-right: -0.5rem; }
+    .header__button--signup {
+      padding: 1rem 3rem;
+      border-radius: 200px; }
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif; }

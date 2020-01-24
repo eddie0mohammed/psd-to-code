@@ -1,0 +1,72 @@
+
+
+.header{
+
+    background: pink;
+    // height: 3rem;
+
+    padding: 1rem 2rem;
+    
+    align-items: center;
+
+    
+
+    &__logo{
+       margin-right: 2rem;
+    }
+
+    &__image{
+        width: 7rem;
+        height: 5rem;
+    }
+
+    &__nav{
+        margin-right: auto;
+    }
+
+    &__link{
+        font-size: 1rem;
+        text-decoration: none;
+        padding: 0 0.5rem;
+        text-transform: uppercase;
+    }
+
+    &__buttons{
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__button{
+        display: flex;
+        background: yellowgreen;
+        padding: 1rem 2rem;
+        margin: 0 0.5rem;
+        border-radius: 100px;
+        
+        text-decoration: none;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: $color-white;
+        
+
+        -webkit-box-shadow: 0 1rem 2rem rgba(0,0,0, 0.2);
+        box-shadow: 0 1rem 2rem rgba(0,0,0, 0.2);
+
+        &--showbag{
+
+            .icon{
+                align-self: center;
+                margin-left: 1rem;
+                margin-right: -0.5rem;
+            }
+        }
+
+        &--signup{
+            padding: 1rem 3rem;
+            border-radius: 200px;
+        }
+
+       
+    }
+}
