@@ -1,0 +1,98 @@
+
+
+.top-section{
+    width: 100%;
+
+    // background-color: red;
+    padding: 2rem;
+
+    &__left{
+        width: 50%;
+        // background: yellow;
+
+        position: relative;
+
+        .overlay-text{
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            font-size: 15rem;
+            font-weight: 600;
+            color: rgba(0,0,0, 0.1);
+            z-index: 1;
+            
+
+        }
+
+    }
+
+    &__header{
+        font-size: 3rem;
+        margin-top: 9rem;
+        z-index: 2;
+    }
+
+    &__para{
+        // background: pink;
+        font-size: 1.35rem;
+        padding: 2rem 4rem 2rem 0;
+        line-height: 1.6rem;
+    }
+
+    &__form{
+
+        position: relative;
+
+        .icon{
+            color: #000000;
+            font-size: 1.8rem;
+            position: absolute;
+            top: 60%;
+            left: 1rem;
+            transform: translate(0, -65%);
+        }
+
+        .form__input{
+            padding: 1.5em;
+            width: 90%;
+            // margin-left: 1rem;
+            border:none;
+            border-radius: 200px;
+            
+            // background: blue;
+
+            -webkit-box-shadow: 0 1rem 2rem rgba(0,0,0, 0.2);
+            box-shadow: 0 1rem 2rem rgba(0,0,0, 0.2);
+
+        }
+
+        .form__input::placeholder{
+            padding-left: 1.2rem;
+        }
+
+        .form__button{
+            padding: 1rem 2rem;
+            text-transform: uppercase;
+            color: white;
+            border:none;
+            border-radius: 200px;
+            background: lightcoral;
+            position: absolute;
+            top: 50%;
+            right: 10%;
+            transform: translate(-10%, -50%);
+        }
+    }
+
+    &__right{
+        width: 50%;
+        background: green;
+
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
