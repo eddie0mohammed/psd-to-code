@@ -225,6 +225,104 @@
     color: rgba(0, 0, 0, 0.7);
     text-transform: uppercase; }
 
+.third {
+  display: flex; }
+  .third__left {
+    width: 60%; }
+    .third__left img {
+      width: 100%;
+      padding: 5rem; }
+  .third__middle {
+    width: 30%; }
+  .third__topcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border-radius: 200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 5.5rem;
+    margin-top: 12rem;
+    padding: 0 1rem;
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); }
+  .third__circle {
+    width: 4rem;
+    height: 4rem;
+    background: red;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); }
+    .third__circle-1 {
+      background-color: orangered; }
+    .third__circle-2 {
+      background-color: purple; }
+    .third__circle-3 {
+      background-color: darkgoldenrod; }
+  .third__bottomcontainer {
+    background: #fff;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); }
+  .third__the {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 200;
+    color: orange; }
+  .third__color {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    color: blue; }
+  .third__collection {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 200;
+    color: purple; }
+  .third__text {
+    margin-top: 1.5rem; }
+  .third__link {
+    display: inline-block;
+    margin-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    color: blue;
+    border-bottom: 1px solid blue; }
+  .third__right {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end; }
+  .third__bar {
+    width: 1.5rem;
+    height: 60%;
+    background: white;
+    margin-top: 5rem;
+    border-radius: 200px;
+    background-image: linear-gradient(to bottom, purple, orange, orangered, purple, darkblue);
+    position: relative; }
+    .third__bar .circle {
+      position: absolute;
+      top: 8rem;
+      right: -0.75rem;
+      width: 3rem;
+      height: 3rem;
+      background-color: #fff;
+      border-radius: 50%;
+      -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5); }
+      .third__bar .circle .inner_circle {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background: orange;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+
 html {
   font-size: 62.5%;
   font-family: sans-serif; }
