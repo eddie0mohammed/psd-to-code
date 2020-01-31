@@ -323,6 +323,151 @@
         left: 50%;
         transform: translate(-50%, -50%); }
 
+.fourth {
+  width: 100%;
+  display: flex;
+  background: darkblue;
+  padding-top: 10rem;
+  clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
+  margin-top: -8rem; }
+  .fourth .fourth__left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .fourth .fourth__left .img {
+      width: 90%; }
+  .fourth .fourth__right {
+    width: 50%;
+    padding: 3rem; }
+  .fourth__header {
+    color: white;
+    font-size: 2.5rem; }
+  .fourth__innerFirst {
+    margin-top: 3rem;
+    display: flex; }
+    .fourth__innerFirst .icon-container {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      position: relative;
+      border-top: 2px solid orange;
+      border-right: 2px solid orange;
+      border-bottom: 2px solid white;
+      border-left: 2px solid white;
+      transform: rotateZ(45deg);
+      align-self: center; }
+      .fourth__innerFirst .icon-container::after {
+        content: '';
+        display: block;
+        width: 4.5rem;
+        height: 4.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border: 1px dashed white; }
+      .fourth__innerFirst .icon-container .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotateZ(-45deg);
+        font-size: 3rem;
+        color: white;
+        z-index: 1; }
+    .fourth__innerFirst .details {
+      padding: 1rem; }
+      .fourth__innerFirst .details__bluetooth {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white; }
+      .fourth__innerFirst .details__desc {
+        padding: 0.5rem 0;
+        color: lightgray; }
+      .fourth__innerFirst .details__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8px;
+        font-weight: 600;
+        color: orange; }
+  .fourth__innerSecond {
+    margin-top: 3rem;
+    display: flex; }
+    .fourth__innerSecond .icon-container {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      position: relative;
+      border-top: 2px solid white;
+      border-right: 2px solid orange;
+      border-bottom: 2px solid orange;
+      border-left: 2px solid white;
+      align-self: center; }
+      .fourth__innerSecond .icon-container::after {
+        content: '';
+        display: block;
+        width: 4.5rem;
+        height: 4.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border: 1px dashed white; }
+      .fourth__innerSecond .icon-container .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        color: white;
+        z-index: 1; }
+    .fourth__innerSecond .details {
+      padding: 1rem; }
+      .fourth__innerSecond .details__bluetooth {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white; }
+      .fourth__innerSecond .details__desc {
+        padding: 0.5rem 0;
+        color: lightgray; }
+      .fourth__innerSecond .details__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8px;
+        font-weight: 600;
+        color: orange; }
+
+.fifth {
+  background: pink;
+  width: 100%;
+  height: 10rem;
+  padding: 5rem; }
+  .fifth__top {
+    display: flex;
+    justify-content: space-between; }
+  .fifth__header {
+    font-size: 2rem;
+    color: blue; }
+  .fifth__nav {
+    display: flex;
+    align-items: center;
+    align-items: center; }
+    .fifth__nav--left {
+      background: blue;
+      color: white; }
+    .fifth__nav--right {
+      color: rgba(0, 0, 0, 0.2); }
+      .fifth__nav--right:hover {
+        color: white;
+        background: blue; }
+  .fifth__arrow {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 2.2rem;
+    padding: 1rem 2rem;
+    cursor: pointer; }
+
 html {
   font-size: 62.5%;
   font-family: sans-serif; }
