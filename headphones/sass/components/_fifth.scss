@@ -15,7 +15,7 @@
     }
 
     &__header{
-        font-size: 2rem;
+        font-size: 3rem;
         color: blue;
         margin-left: 5rem;
     }
@@ -142,5 +142,85 @@
             color: white;
         }
     }
+
+
+    &__bottom{
+        // background: pink;
+        margin-top: 10rem;
+
+        &_header{
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            color: blue;
+        }
+    }
+
+    &__inputContainer{
+        display: flex;
+        width: 80%;
+        // background: red;
+        margin: 3rem auto;
+
+
+        .input1{
+            width: 45%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-right: 1rem;
+        }
+
+        .input2{
+            width: 50%;
+            position: relative;
+            display: flex;
+            align-items: center;
+
+
+        }
+
+        .input{
+            padding: 1.5rem;
+            border:none;
+            border-radius: 100px;
+            width: 100%;
+
+            box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+
+        }
+        
+
+
+        .icon{
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(60%, -50%);
+            font-size: 1.8rem;
+            color: lightgray;
+        }
+        
+        .btn{
+            position: absolute;
+            top: 50%;
+            right: 0%;
+            transform: translate(-10%, -50%);
+            padding: 1rem 2rem;
+            border:none;
+            border-radius: 100px;
+            background: blue;
+            color: white;
+
+            font-size: 0.5rem;
+            font-weight: 600;
+            
+            
+        }
+    }
+
+
+
+
 }
 
